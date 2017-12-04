@@ -1,0 +1,18 @@
+<div id="example">
+  <my-component></my-component>
+</div>
+
+<script src="https://unpkg.com/vue"></script>
+<script type="text/javascript">
+Vue.component('my-component', {
+  template: '<table border="1"><tr><td>1</td><td>Angular</td></tr><tr><td>2</td><td>Node</td></tr><tr><td>3</td><td>Vue</td></tr></table>'
+})
+
+// create a root instance
+new Vue({
+  el: '#example'
+})
+
+
+</script>
+
